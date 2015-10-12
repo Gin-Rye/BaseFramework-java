@@ -7,4 +7,11 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>BaseFramework-java-base</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>com.ginrye</groupId>
+			<artifactId>BaseFramework-java-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
