@@ -5,11 +5,9 @@ import java.sql.SQLException;
 import org.dbunit.DatabaseUnitException;
 import org.junit.After;
 import org.junit.Before;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.ginrye.baseframework.java.test.db.DBHelper;
 
-@Transactional
 public abstract class BaseH2DBTest extends BaseTest {
 
 	protected abstract String[] getDataSets();
