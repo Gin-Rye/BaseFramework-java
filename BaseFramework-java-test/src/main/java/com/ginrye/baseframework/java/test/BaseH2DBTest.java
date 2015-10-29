@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.ginrye.baseframework.java.test.db.DBHelper;
 
 @Transactional
-public abstract class BaseDBTest extends BaseTest {
+public abstract class BaseH2DBTest extends BaseTest {
 
 	protected abstract String[] getDataSets();
 
