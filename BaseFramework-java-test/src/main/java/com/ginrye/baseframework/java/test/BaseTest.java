@@ -7,5 +7,5 @@ import org.springframework.transaction.annotation.Transactional;
 @RunWith(SpringJUnit4ClassRunner.class)
 @Transactional
 public abstract class BaseTest {
-
+	
 }
